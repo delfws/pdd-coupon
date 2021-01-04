@@ -29,3 +29,23 @@
 <img src="https://raw.githubusercontent.com/sgxiang/pdd-coupon/main/xcx-1.png" width="200"/> <img src="https://raw.githubusercontent.com/sgxiang/pdd-coupon/main/xcx-2.png" width="200"/> <img src="https://raw.githubusercontent.com/sgxiang/pdd-coupon/main/xcx-3.png" width="200"/>
 
 如有疑问，请提issue或微信联系：sgxiang
+
+
+
+推广位
+
+```
+{"p_id_generate_response":{"p_id_list":[{"create_time":1609732689,"media_id":0,"pid_name":"","p_id":"13943073_186718366"}],"remain_pid_count":499998,"request_id":"16097326889582679"}}
+```
+
+推广位备案
+
+```
+{"rp_promotion_url_generate_response":{"url_list":[{"mobile_url":"https://mobile.yangkeduo.com/app.html?use_reload=1&launch_url=duo_coupon_landing.html%3F__page%3Dauth%26pid%3D13943073_186718366%26cpsSign%3DCC_210104_13943073_186718366_4c8a6d689643982445f2f1d2f6eb895d%26duoduo_type%3D2&campaign=ddjb&cid=launch_","url":"https://mobile.yangkeduo.com/duo_coupon_landing.html?__page=auth&pid=13943073_186718366&cpsSign=CC_210104_13943073_186718366_4c8a6d689643982445f2f1d2f6eb895d&duoduo_type=2"}],"request_id":"16097327933337062"}}
+```
+
+推广位备案
+
+```
+{"rp_promotion_url_generate_response":{"url_list":[{"mobile_url":"https://mobile.yangkeduo.com/app.html?use_reload=1&launch_url=duo_coupon_landing.html%3F__page%3Dauth%26pid%3D13943073_186718366%26customParameters%3D%257B%2522uid%2522%253A%25221234%2522%257D%26cpsSign%3DCC_210104_13943073_186718366_1a64c38093d1bd42245b86d0cd712b6c%26duoduo_type%3D2&campaign=ddjb&cid=launch_","we_app_info":{"we_app_icon_url":"http://xcxcdn.yangkeduo.com/pdd_logo.png","user_name":"gh_a6611aee87d6","page_path":"/pages/web/web?specialUrl=1&src=https%3A%2F%2Fmobile.yangkeduo.com%2Fduo_coupon_landing.html%3F__page%3Dauth%26pid%3D13943073_186718366%26customParameters%3D%257B%2522uid%2522%253A%25221234%2522%257D%26cpsSign%3DCC_210104_13943073_186718366_1a64c38093d1bd42245b86d0cd712b6c%26duoduo_type%3D2","source_display_name":"拼多多福利券","title":"认证页","app_id":"wxa918198f16869201","desc":"拼多多，多实惠，多乐趣。"},"url":"https://mobile.yangkeduo.com/duo_coupon_landing.html?__page=auth&pid=13943073_186718366&customParameters=%7B%22uid%22%3A%221234%22%7D&cpsSign=CC_210104_13943073_186718366_1a64c38093d1bd42245b86d0cd712b6c&duoduo_type=2"}],"request_id":"16097332540851827"}}
+```

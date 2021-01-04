@@ -24,7 +24,7 @@
 
   <view class="section">
     <view class="section-top">
-      <text class="section-text">有趣小程序</text>
+      <text class="section-text">其他优惠</text>
     </view>
     <view class="section-bottom">
       <view class="section-bottom-item" bindtap="toOtherMiniPrograms" data-index="{{index}}" wx:for="{{otherMiniPrograms}}">
