@@ -17,9 +17,11 @@ Page({
   onLoad: function (options) {
     this.data.goods_id =  options["gid"];
     this.data.search_id = options["search_id"];
+    this.data.goods_sign = options["goods_sign"];
     this.setData({
       goods_id: options["gid"],
       search_id: options["search_id"],
+      goods_sign: options["goods_sign"],
     });
     this.reloadData();
   },
@@ -40,6 +42,7 @@ Page({
       data: {
         detail: true,
         goods_id_list: `[${this.data.goods_id}]`,
+        goods_sign: this.data.goods_sign,
         search_id: this.data.search_id,
       }
     })
@@ -65,7 +68,7 @@ Page({
     this.reloadData();
   },
   onShareAppMessage: function(e) {
-    let path = '/pages/detail/detail?gid=' + this.data.goods_id + '&search_id=' + this.data.search_id;
+    let path = '/pages/detail/detail?gid=' + this.data.goods_id + '&search_id=' + this.data.search_id + '&goods_sign=' + this.data.goods_sign;
     return {
       title: "这里有好多拼多多券可以领取哦~",
       path: path,
@@ -81,6 +84,7 @@ Page({
       data: {
         generate: true,
         goods_id_list: `[${this.data.goods_id}]`,
+        goods_sign: this.data.goods_sign,
         search_id: this.data.search_id,
       }
     }).then(res => {

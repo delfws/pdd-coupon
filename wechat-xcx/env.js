@@ -12,7 +12,7 @@ export default {
       icon: "/images/waimai.jpg",
       name: "外卖领券",
       appId: "wx7310f234719c1a10",
-      path: "/pages/index/index",
+      path: "/pages/takeout/takeout",
     },
   ],
   // 拼多多appid

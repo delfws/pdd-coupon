@@ -43,6 +43,7 @@ exports.main = async (event, context) => {
       type: "pdd.ddk.goods.promotion.url.generate",
       p_id: utils.PDDPID,
       goods_id_list: event.goods_id_list,
+      goods_sign: event.goods_sign,
       search_id: event.search_id,
       generate_we_app: true,
     };
@@ -57,6 +58,7 @@ exports.main = async (event, context) => {
       type: "pdd.ddk.goods.detail",
       pid: utils.PDDPID,
       goods_id_list: event.goods_id_list,
+      goods_sign: event.goods_sign,
       search_id: event.search_id,
     };
   }
